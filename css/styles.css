@@ -108,7 +108,6 @@ h2 {
 
 .second {
     font-size: 1.3em;
-    vertical-align: top;
 }
 
 .third {
@@ -116,7 +115,6 @@ h2 {
     word-spacing: -0.1em;
     letter-spacing: -0.06em;
     text-align: left;
-    vertical-align: baseline;
 }
 
 .fourth {
@@ -129,9 +127,7 @@ h2 {
     letter-spacing: 0.05em;
     word-spacing: 1.5em;
     line-height: 1.5;
-    text-align: justify;
-    vertical-align: middle;
-   
+    text-align: justify;   
 }
 
 .red {
@@ -145,7 +141,7 @@ h2 {
     -moz-text-decoration-color: red;
     line-height: 2em;
     text-align: center;
-    vertical-align: text-bottom;
+   
 }
 
 .red::first-letter {
@@ -157,4 +153,36 @@ h2 {
 
 .red::first-line {
     font-style: italic;
+}
+
+img {
+    vertical-align: sub;
+}
+
+.one {
+    vertical-align: sub;
+}
+
+.two {
+    vertical-align: super;
+}
+
+.three {
+    vertical-align: middle;
+}
+
+.four {
+    vertical-align: text-bottom;
+}
+
+.five {
+    vertical-align: bottom;
+}
+
+.six {
+    vertical-align: top;
+}
+
+.seven {
+    vertical-align: text-top;
 }
